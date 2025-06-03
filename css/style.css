@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+.clear {
+    clear: both
+}
+
+.logo {
+    text-align: center;
+    height: 70px;
+    overflow: hidden;
+    width: 70px;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+.logo img {
+    display: block;
+    width: 100%;
+}
+
+.banner {
+    position: relative;
+    clear: both
+}
+
+.menu {
+    margin: 0 auto;
+    height: 51px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.menu li {
+    list-style: none
+}
+
+.menu li a {
+    color: #666;
+}
+
+.menu li a:hover {
+    color: #000000;
+}
+
+.menu li {
+    float: left;
+    padding: 15px 0px;
+    width: 25%;
+    font-size: 16px;
+    background: #ddd;
+    text-align: center
+}
+
+.tit {
+    width: 100%;
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px 0;
+    font-size: 18px;
+
+}
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.imglist {
+    clear: both
+}
+
+.imglist ul {
+    margin-left: -20px;
+    margin-right: -20px
+}
+
+.imglist li img {
+    width: 100%;
+    height: 240px;
+    display: block;
+}
+
+.imglist li {
+    float: left;
+    width: 235px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    text-align: center
+}
+
+.imglist li h3 {
+    font-weight: normal;
+}
+
+.imglist li p {
+    color: #666;
+}
+
+.info img {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.pad {
+    padding: 20px 0;
+    display: block;
+    line-height: 24px;
+}
+
+.info .pad {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.padinfo {
+    width: 400px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 1000px;
+    color: #666;
+    border-top: 1px solid #ddd;
+    background: #ddd;
+}
+
+.text p {
+    margin: 15px 0;
+    line-height: 26px;
+    text-indent: 2em;
+}
+
+.picbox {
+    float: right;
+    margin-left: 15px;
+    width: 350px;
+}
+
+.picbox img {
+    width: 100%;
+    display: block;
+}
+
+.bmw .text {
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #999;
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.bmw .btn {
+    background: #333;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    margin-left: 100px;
+}
+
+.msg {
+    background: #ddd;
+    padding-top: 40px;
+    height: 300px
+}
+
+.msg>div {
+    padding: 10px
+}
+.fl {
+    float: left
+}
+.msg .fl {
+    width: 100px;
+    text-align: right
+}
+
+.tip{
+    float: right;
+}
